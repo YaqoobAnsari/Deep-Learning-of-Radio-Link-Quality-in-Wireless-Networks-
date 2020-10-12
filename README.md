@@ -23,7 +23,8 @@ The dataset and scripts for recreation of a deep learning model for measuring in
 5) CopyCreator.py: A script that the original Matrix file as input and creates copies for every location. In addition, it adds features to the elements. These are distances from the Access Point, a metric for Area of Importance, and colors the location and access points red.
 6) AllMatrixGenerator.py: A script that appends all individual matrices representations of the 3D floorplan into one larger ndarray. 
 7) TrainTestSplit.py: A script that splits the matrix of all 3D floorplans and the matrix of RSSIs into training and testing data.
-8) GRNN_simple.py: A script containing the Keras architecture for training with the data files.
+8) FilenameGen.py: A script that returns a numpy array with all the filenames of the created matrices copies.
+9) GRNN_simple.py: A script containing the Keras architecture for training with the data files.
 
 # Procedure 
 * A 2D floorplan of the location is created/obtained and reconstructed into a 3D floorplan (using SweetHome3D software).
