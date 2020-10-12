@@ -5,5 +5,9 @@ The dataset and scripts for recreation of a deep learning model for measuring in
 1) Python3
 2) Keras
 
+* Bullet list
+              * Nested bullet
+                  * Sub-nested bullet etc
+          * Bullet list item 2
 # Contents 
 1)
